@@ -1,0 +1,79 @@
+{
+    "messageVersion": "1.0",
+    "invocationSource": "FulfillmentCodeHook", 
+    "userId": "m4sq4trxdp0vqo1a2gkam2xh2t1k5yej", 
+    "sessionAttributes": {}, 
+    "requestAttributes": "None", 
+    "bot": {
+        "name": "Tuesday", 
+        "alias": "$LATEST", 
+        "version": "$LATEST"
+        }, 
+        "outputDialogMode": "Text", 
+        "currentIntent": {
+            "name": "articleAnalysis", 
+            "slots": {
+                "slotOne": "https://docs.google.com/document/d/13xaUlYYxxpcGYGM6QmaALnsQZs3RedcpOXm2lomMACE/edit?usp=sharing"}, 
+                "slotDetails": {
+                    "slotOne": {
+                        "resolutions": [], 
+                        "originalValue": "https://docs.google.com/document/d/13xaUlYYxxpcGYGM6QmaALnsQZs3RedcpOXm2lomMACE/edit?usp=sharing"
+                        }
+                        }, 
+                        "confirmationStatus": "None", 
+                        "nluIntentConfidenceScore": 0.99
+                        }, "alternativeIntents": 
+                        [
+                            {"name": "checkgroup", 
+                                "slots": {
+                                    "email": "None"
+                                    }, 
+                                    "slotDetails": {
+                                        "email": "None"
+                                        }, 
+                                        "confirmationStatus": "None", 
+                                        "nluIntentConfidenceScore": 0.6
+                                        }, 
+                                        {
+                                            "name": "AMAZON.FallbackIntent", 
+                                            "slots": {}, 
+                                            "slotDetails": {}, 
+                                            "confirmationStatus": "None", 
+                                            "nluIntentConfidenceScore": "None"
+                                            }, 
+                                            {
+                                                "name": "SECtwo", 
+                                                "slots": {}, 
+                                                "slotDetails": {}, 
+                                                "confirmationStatus": "None", 
+                                                "nluIntentConfidenceScore": 0.58
+                                                }, 
+                                                {
+                                                    "name": "credithoursandfufillemnts", 
+                                                    "slots": {}, 
+                                                    "slotDetails": {}, 
+                                                    "confirmationStatus": "None", 
+                                                    "nluIntentConfidenceScore": 0.54
+                                                    }
+                                                    ], 
+                                                    "inputTranscript": "https://docs.google.com/document/d/13xaUlYYxxpcGYGM6QmaALnsQZs3RedcpOXm2lomMACE/edit?usp=sharing", 
+                                                    "recentIntentSummaryView": [
+                                                        {
+                                                            "intentName": "articleAnalysis", 
+                                                            "checkpointLabel": "None", 
+                                                            "slots": {
+                                                                "slotOne": "None"
+                                                                }, 
+                                                                "confirmationStatus": "None", 
+                                                                "dialogActionType": "ElicitSlot", 
+                                                                "fulfillmentState": "None", 
+                                                                "slotToElicit": "slotOne"
+                                                                }
+                                                                ], 
+                                                                "sentimentResponse": {
+                                                                    "sentimentLabel": "NEUTRAL", 
+                                                                    "sentimentScore": "{Positive: 2.5597314E-4,Negative: 3.857543E-4,Neutral: 0.9992594,Mixed: 9.8868055E-5}"
+                                                                        }, 
+                                                                        "kendraResponse": "None"
+                                                                    }
+   
